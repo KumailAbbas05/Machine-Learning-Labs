@@ -1,14 +1,18 @@
 # Machine Learning Labs
 
-A collection of beginner-friendly machine learning lab exercises completed while learning Python and core ML concepts.
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-Practice-yellow)
 
-## Topics Covered
+A growing collection of beginner Machine Learning exercises completed while learning Python and Scikit-learn.
 
-- Train/test splitting
+## Current Topics
+
 - `train_test_split`
+- Training and testing sets
+- Test-size configuration
+- Reproducibility with `random_state`
 - K-Fold cross-validation
-- `KFold`
-- Working with simple Python lists
+- Training and testing indices
 - Scikit-learn basics
 
 ## Repository Structure
@@ -25,34 +29,48 @@ Machine-Learning-Labs/
 └── README.md
 ```
 
-## Lab 02
+## Lab Highlights
 
 ### Train/Test Split
 
-Creates a list containing the numbers 1 to 20 and splits it into training and testing sets using:
+Splits numbers 1–20 using:
 
-- `test_size=0.25`
-- `random_state=0`
+```python
+test_size=0.25
+random_state=0
+```
+
+This demonstrates how a dataset can be separated before model training and evaluation.
 
 ### K-Fold Cross-Validation
 
-Creates a list of eight items and uses `KFold` with four folds to display the training and testing positions for every fold.
+Uses eight sample items with four folds to show how different portions of data become the test set in each fold.
 
-## Installation
-
-Install the required Python packages:
+## Run the Exercises
 
 ```bash
 pip install -r requirements.txt
+python lab02/train_test_split_numbers.py
+python lab02/kfold_items.py
 ```
 
-## Technologies
+## What I Practiced
 
-- Python
-- Scikit-learn
-- Pandas
-- Matplotlib
-- Jupyter Notebook
+- Importing Scikit-learn tools
+- Splitting data correctly
+- Understanding train vs test data
+- Understanding folds
+- Reading index outputs
+- Writing simple reproducible ML code
+
+## Planned Additions
+
+- Classification
+- Regression
+- Confusion matrix
+- Accuracy and precision
+- Cross-validation scores
+- Feature preprocessing
 
 ## Author
 
