@@ -1,5 +1,8 @@
 # Machine Learning Labs
 
+[![CI](https://github.com/KumailAbbas05/Machine-Learning-Labs/actions/workflows/ci.yml/badge.svg)](https://github.com/KumailAbbas05/Machine-Learning-Labs/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-Practice-yellow)
 
